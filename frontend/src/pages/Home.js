@@ -7,10 +7,13 @@ export default function Home() {
   const [error, setError] = useState('');
 
   // add‑to‑cart placeholder
-  const handleAddToCart = (prod) => {
-    console.log('ADD →', prod);
-    // TODO: push to context / localStorage
-  };
+ const handleAddToCart = (prod) => {
+  alert(`Added to cart: ${prod.name}`);
+  // Save to localStorage (optional)
+  let cart = JSON.parse(localStorage.getItem('cart')) || [];
+  cart.push(prod);
+  localStorage.setItem('cart', JSON.stringify(cart));
+};
 
  useEffect(() => {
   async function fetchProducts() {
