@@ -1,452 +1,482 @@
 [
   {
-    "name": "Whole Wheat Bread",
-    "price": 45.00,
-    "description": "Soft, freshly baked whole‑wheat loaf.",
-    "image": "https://source.unsplash.com/featured/300x200?bread"
+    "name": "Product 1",
+    "price": 50,
+    "description": "High-quality bread from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?bread&sig=1"
   },
   {
-    "name": "Organic Milk 1 L",
-    "price": 60.00,
-    "description": "Locally sourced organic cow’s milk.",
-    "image": "https://source.unsplash.com/featured/300x200?milk"
+    "name": "Product 2",
+    "price": 60,
+    "description": "High-quality milk from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?milk&sig=2"
   },
   {
-    "name": "Free‑Range Eggs (12 pc)",
-    "price": 79.00,
-    "description": "Grade‑A farm eggs, rich in protein.",
-    "image": "https://source.unsplash.com/featured/300x200?eggs"
+    "name": "Product 3",
+    "price": 70,
+    "description": "High-quality eggs from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?eggs&sig=3"
   },
   {
-    "name": "Basmati Rice 5 kg",
-    "price": 499.00,
-    "description": "Long‑grain aromatic basmati rice.",
-    "image": "https://source.unsplash.com/featured/300x200?rice"
+    "name": "Product 4",
+    "price": 80,
+    "description": "High-quality rice from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?rice&sig=4"
   },
   {
-    "name": "Red Lentils 1 kg",
-    "price": 110.00,
-    "description": "Premium masoor dal, iron‑rich.",
-    "image": "https://source.unsplash.com/featured/300x200?lentils"
+    "name": "Product 5",
+    "price": 90,
+    "description": "High-quality lentils from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?lentils&sig=5"
   },
   {
-    "name": "Sunflower Cooking Oil 1 L",
-    "price": 150.00,
-    "description": "Light, heart‑healthy cooking oil.",
-    "image": "https://source.unsplash.com/featured/300x200?cooking-oil"
+    "name": "Product 6",
+    "price": 100,
+    "description": "High-quality oil from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?oil&sig=6"
   },
   {
-    "name": "Raw Honey 500 g",
-    "price": 275.00,
-    "description": "Unprocessed wild‑flower honey.",
-    "image": "https://source.unsplash.com/featured/300x200?honey"
+    "name": "Product 7",
+    "price": 110,
+    "description": "High-quality honey from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?honey&sig=7"
   },
   {
-    "name": "Peanut Butter 340 g",
-    "price": 165.00,
-    "description": "Creamy, no‑added‑sugar spread.",
-    "image": "https://source.unsplash.com/featured/300x200?peanut-butter"
+    "name": "Product 8",
+    "price": 120,
+    "description": "High-quality peanut butter from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?peanut-butter&sig=8"
   },
   {
-    "name": "Breakfast Oats 1 kg",
-    "price": 180.00,
-    "description": "Rolled oats for a healthy start.",
-    "image": "https://source.unsplash.com/featured/300x200?oats"
+    "name": "Product 9",
+    "price": 130,
+    "description": "High-quality oats from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?oats&sig=9"
   },
   {
-    "name": "Corn Flakes 750 g",
-    "price": 210.00,
-    "description": "Classic crunchy corn cereal.",
-    "image": "https://source.unsplash.com/featured/300x200?cornflakes"
+    "name": "Product 10",
+    "price": 140,
+    "description": "High-quality cornflakes from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?cornflakes&sig=10"
   },
   {
-    "name": "Dark Chocolate 70% 100 g",
-    "price": 120.00,
-    "description": "Rich bittersweet artisanal bar.",
-    "image": "https://source.unsplash.com/featured/300x200?dark-chocolate"
+    "name": "Product 11",
+    "price": 150,
+    "description": "High-quality dark chocolate from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?dark-chocolate&sig=11"
   },
   {
-    "name": "Salted Potato Chips 150 g",
-    "price": 55.00,
-    "description": "Hand‑cooked crunchy chips.",
-    "image": "https://source.unsplash.com/featured/300x200?potato-chips"
+    "name": "Product 12",
+    "price": 160,
+    "description": "High-quality chips from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?chips&sig=12"
   },
   {
-    "name": "Roasted Almonds 200 g",
-    "price": 240.00,
-    "description": "Lightly salted premium almonds.",
-    "image": "https://source.unsplash.com/featured/300x200?almonds"
+    "name": "Product 13",
+    "price": 170,
+    "description": "High-quality almonds from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?almonds&sig=13"
   },
   {
-    "name": "Cashew Nuts 200 g",
-    "price": 265.00,
-    "description": "Whole, buttery cashews.",
-    "image": "https://source.unsplash.com/featured/300x200?cashews"
+    "name": "Product 14",
+    "price": 180,
+    "description": "High-quality cashews from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?cashews&sig=14"
   },
   {
-    "name": "Green Tea 25 bags",
-    "price": 130.00,
-    "description": "Antioxidant‑rich green tea.",
-    "image": "https://source.unsplash.com/featured/300x200?green-tea"
+    "name": "Product 15",
+    "price": 190,
+    "description": "High-quality green tea from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?green-tea&sig=15"
   },
   {
-    "name": "Instant Coffee 200 g",
-    "price": 260.00,
-    "description": "Premium freeze‑dried coffee.",
-    "image": "https://source.unsplash.com/featured/300x200?coffee"
+    "name": "Product 16",
+    "price": 200,
+    "description": "High-quality coffee from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?coffee&sig=16"
   },
   {
-    "name": "Tomato Ketchup 500 g",
-    "price": 80.00,
-    "description": "No‑preservative tangy ketchup.",
-    "image": "https://source.unsplash.com/featured/300x200?ketchup"
+    "name": "Product 17",
+    "price": 210,
+    "description": "High-quality ketchup from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?ketchup&sig=17"
   },
   {
-    "name": "Pasta Spaghetti 500 g",
-    "price": 90.00,
-    "description": "Durum‑wheat Italian pasta.",
-    "image": "https://source.unsplash.com/featured/300x200?spaghetti"
+    "name": "Product 18",
+    "price": 220,
+    "description": "High-quality spaghetti from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?spaghetti&sig=18"
   },
   {
-    "name": "Arrabbiata Pasta Sauce 350 g",
-    "price": 140.00,
-    "description": "Spicy tomato basil sauce.",
-    "image": "https://source.unsplash.com/featured/300x200?pasta-sauce"
+    "name": "Product 19",
+    "price": 230,
+    "description": "High-quality pasta sauce from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?pasta-sauce&sig=19"
   },
   {
-    "name": "Cheddar Cheese Slice 200 g",
-    "price": 155.00,
-    "description": "Mild, melt‑in‑mouth cheddar.",
-    "image": "https://source.unsplash.com/featured/300x200?cheese"
+    "name": "Product 20",
+    "price": 240,
+    "description": "High-quality cheese from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?cheese&sig=20"
   },
   {
-    "name": "Plain Yogurt 400 g",
-    "price": 60.00,
-    "description": "Thick probiotic curd.",
-    "image": "https://source.unsplash.com/featured/300x200?yogurt"
+    "name": "Product 21",
+    "price": 250,
+    "description": "High-quality yogurt from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?yogurt&sig=21"
   },
   {
-    "name": "Frozen Peas 500 g",
-    "price": 85.00,
-    "description": "Flash‑frozen sweet peas.",
-    "image": "https://source.unsplash.com/featured/300x200?peas"
+    "name": "Product 22",
+    "price": 260,
+    "description": "High-quality peas from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?peas&sig=22"
   },
   {
-    "name": "Frozen Mixed Veg 500 g",
-    "price": 95.00,
-    "description": "Peas, carrots, corn combo.",
-    "image": "https://source.unsplash.com/featured/300x200?mixed-vegetables"
+    "name": "Product 23",
+    "price": 270,
+    "description": "High-quality mixed vegetables from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?mixed-vegetables&sig=23"
   },
   {
-    "name": "Paneer 200 g",
-    "price": 90.00,
-    "description": "Soft cottage cheese cubes.",
-    "image": "https://source.unsplash.com/featured/300x200?paneer"
+    "name": "Product 24",
+    "price": 280,
+    "description": "High-quality paneer from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?paneer&sig=24"
   },
   {
-    "name": "Butter 100 g",
-    "price": 65.00,
-    "description": "Creamy dairy butter.",
-    "image": "https://source.unsplash.com/featured/300x200?butter"
+    "name": "Product 25",
+    "price": 290,
+    "description": "High-quality butter from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?butter&sig=25"
   },
   {
-    "name": "Brown Sugar 1 kg",
-    "price": 78.00,
-    "description": "Unrefined cane sugar.",
-    "image": "https://source.unsplash.com/featured/300x200?brown-sugar"
+    "name": "Product 26",
+    "price": 300,
+    "description": "High-quality sugar from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?sugar&sig=26"
   },
   {
-    "name": "Table Salt 1 kg",
-    "price": 22.00,
-    "description": "Iodised refined salt.",
-    "image": "https://source.unsplash.com/featured/300x200?salt"
+    "name": "Product 27",
+    "price": 310,
+    "description": "High-quality salt from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?salt&sig=27"
   },
   {
-    "name": "Black Pepper 100 g",
-    "price": 120.00,
-    "description": "Whole peppercorns.",
-    "image": "https://source.unsplash.com/featured/300x200?black-pepper"
+    "name": "Product 28",
+    "price": 320,
+    "description": "High-quality pepper from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?pepper&sig=28"
   },
   {
-    "name": "Turmeric Powder 200 g",
-    "price": 75.00,
-    "description": "High‑curcumin turmeric.",
-    "image": "https://source.unsplash.com/featured/300x200?turmeric"
+    "name": "Product 29",
+    "price": 330,
+    "description": "High-quality turmeric from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?turmeric&sig=29"
   },
   {
-    "name": "Dishwashing Liquid 500 ml",
-    "price": 75.00,
-    "description": "Lemon‑fresh grease cutter.",
-    "image": "https://source.unsplash.com/featured/300x200?dish-soap"
+    "name": "Product 30",
+    "price": 340,
+    "description": "High-quality dish soap from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?dish-soap&sig=30"
   },
   {
-    "name": "Laundry Detergent 1 kg",
-    "price": 165.00,
-    "description": "Low‑foam front‑load formula.",
-    "image": "https://source.unsplash.com/featured/300x200?laundry-detergent"
+    "name": "Product 31",
+    "price": 350,
+    "description": "High-quality detergent from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?detergent&sig=31"
   },
   {
-    "name": "Floor Cleaner 1 L",
-    "price": 95.00,
-    "description": "Kills 99.9% germs lavender scent.",
-    "image": "https://source.unsplash.com/featured/300x200?floor-cleaner"
+    "name": "Product 32",
+    "price": 360,
+    "description": "High-quality floor cleaner from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?floor-cleaner&sig=32"
   },
   {
-    "name": "Liquid Handwash 250 ml",
-    "price": 60.00,
-    "description": "Aloe‑vera moisturising soap.",
-    "image": "https://source.unsplash.com/featured/300x200?handwash"
+    "name": "Product 33",
+    "price": 370,
+    "description": "High-quality handwash from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?handwash&sig=33"
   },
   {
-    "name": "Bath Soap 100 g (Pack of 3)",
-    "price": 90.00,
-    "description": "Herbal glycerine bathing bars.",
-    "image": "https://source.unsplash.com/featured/300x200?bath-soap"
+    "name": "Product 34",
+    "price": 380,
+    "description": "High-quality soap from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?soap&sig=34"
   },
   {
-    "name": "Shampoo 180 ml",
-    "price": 120.00,
-    "description": "Anti‑hair‑fall shampoo.",
-    "image": "https://source.unsplash.com/featured/300x200?shampoo"
+    "name": "Product 35",
+    "price": 390,
+    "description": "High-quality shampoo from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?shampoo&sig=35"
   },
   {
-    "name": "Toothpaste 150 g",
-    "price": 95.00,
-    "description": "Fluoride whitening formula.",
-    "image": "https://source.unsplash.com/featured/300x200?toothpaste"
+    "name": "Product 36",
+    "price": 400,
+    "description": "High-quality toothpaste from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?toothpaste&sig=36"
   },
   {
-    "name": "Toothbrush (Soft)",
-    "price": 30.00,
-    "description": "Soft bristle ergonomic brush.",
-    "image": "https://source.unsplash.com/featured/300x200?toothbrush"
+    "name": "Product 37",
+    "price": 410,
+    "description": "High-quality toothbrush from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?toothbrush&sig=37"
   },
   {
-    "name": "Paper Napkins (100 pc)",
-    "price": 55.00,
-    "description": "2‑ply absorbent napkins.",
-    "image": "https://source.unsplash.com/featured/300x200?paper-napkin"
+    "name": "Product 38",
+    "price": 420,
+    "description": "High-quality napkins from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?napkins&sig=38"
   },
   {
-    "name": "Aluminium Foil 25 m",
-    "price": 135.00,
-    "description": "Premium kitchen foil roll.",
-    "image": "https://source.unsplash.com/featured/300x200?aluminium-foil"
+    "name": "Product 39",
+    "price": 430,
+    "description": "High-quality foil from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?foil&sig=39"
   },
   {
-    "name": "Cling Wrap 30 m",
-    "price": 75.00,
-    "description": "Food‑grade cling film.",
-    "image": "https://source.unsplash.com/featured/300x200?cling-wrap"
+    "name": "Product 40",
+    "price": 440,
+    "description": "High-quality cling wrap from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?cling-wrap&sig=40"
   },
   {
-    "name": "Garbage Bags (30 pc)",
-    "price": 70.00,
-    "description": "Medium size draw‑string bags.",
-    "image": "https://source.unsplash.com/featured/300x200?garbage-bag"
+    "name": "Product 41",
+    "price": 50,
+    "description": "High-quality garbage bag from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?garbage-bag&sig=41"
   },
   {
-    "name": "LED Bulb 9 W",
-    "price": 110.00,
-    "description": "Energy‑efficient daylight bulb.",
-    "image": "https://source.unsplash.com/featured/300x200?led-bulb"
+    "name": "Product 42",
+    "price": 60,
+    "description": "High-quality led bulb from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?led-bulb&sig=42"
   },
   {
-    "name": "Extension Cord 3 m",
-    "price": 299.00,
-    "description": "4‑socket surge‑protected.",
-    "image": "https://source.unsplash.com/featured/300x200?extension-cord"
+    "name": "Product 43",
+    "price": 70,
+    "description": "High-quality extension cord from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?extension-cord&sig=43"
   },
   {
-    "name": "AA Batteries (4 pc)",
-    "price": 80.00,
-    "description": "Long‑lasting alkaline cells.",
-    "image": "https://source.unsplash.com/featured/300x200?batteries"
+    "name": "Product 44",
+    "price": 80,
+    "description": "High-quality batteries from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?batteries&sig=44"
   },
   {
-    "name": "USB‑C Cable 1 m",
-    "price": 149.00,
-    "description": "Fast‑charge nylon‑braided.",
-    "image": "https://source.unsplash.com/featured/300x200?usb-c-cable"
+    "name": "Product 45",
+    "price": 90,
+    "description": "High-quality usb cable from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?usb-cable&sig=45"
   },
   {
-    "name": "32 GB Pen Drive",
-    "price": 499.00,
-    "description": "USB 3.0 high‑speed storage.",
-    "image": "https://source.unsplash.com/featured/300x200?pendrive"
+    "name": "Product 46",
+    "price": 100,
+    "description": "High-quality pendrive from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?pendrive&sig=46"
   },
   {
-    "name": "Wireless Mouse",
-    "price": 599.00,
-    "description": "2.4 GHz ergonomic mouse.",
-    "image": "https://source.unsplash.com/featured/300x200?wireless-mouse"
+    "name": "Product 47",
+    "price": 110,
+    "description": "High-quality mouse from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?mouse&sig=47"
   },
   {
-    "name": "Laptop Sleeve 15.6″",
-    "price": 399.00,
-    "description": "Water‑resistant neoprene sleeve.",
-    "image": "https://source.unsplash.com/featured/300x200?laptop-sleeve"
+    "name": "Product 48",
+    "price": 120,
+    "description": "High-quality laptop sleeve from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?laptop-sleeve&sig=48"
   },
   {
-    "name": "Smartphone Tripod",
-    "price": 650.00,
-    "description": "Flexible mini‑tripod.",
-    "image": "https://source.unsplash.com/featured/300x200?tripod"
+    "name": "Product 49",
+    "price": 130,
+    "description": "High-quality tripod from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?tripod&sig=49"
   },
   {
-    "name": "Bluetooth Earbuds",
-    "price": 1299.00,
-    "description": "True‑wireless stereo buds.",
-    "image": "https://source.unsplash.com/featured/300x200?earbuds"
+    "name": "Product 50",
+    "price": 140,
+    "description": "High-quality earbuds from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?earbuds&sig=50"
   },
   {
-    "name": "HDMI Cable 2 m",
-    "price": 199.00,
-    "description": "4K‑ready high‑speed HDMI.",
-    "image": "https://source.unsplash.com/featured/300x200?hdmi-cable"
+    "name": "Product 51",
+    "price": 150,
+    "description": "High-quality hdmi from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?hdmi&sig=51"
   },
   {
-    "name": "Microfiber Cloth (5 pc)",
-    "price": 120.00,
-    "description": "Lint‑free cleaning cloths.",
-    "image": "https://source.unsplash.com/featured/300x200?microfiber-cloth"
+    "name": "Product 52",
+    "price": 160,
+    "description": "High-quality cloth from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?cloth&sig=52"
   },
   {
-    "name": "Wall Clock",
-    "price": 650.00,
-    "description": "Silent sweep modern clock.",
-    "image": "https://source.unsplash.com/featured/300x200?wall-clock"
+    "name": "Product 53",
+    "price": 170,
+    "description": "High-quality clock from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?clock&sig=53"
   },
   {
-    "name": "Scented Candle",
-    "price": 180.00,
-    "description": "Lavender soy wax candle.",
-    "image": "https://source.unsplash.com/featured/300x200?scented-candle"
+    "name": "Product 54",
+    "price": 180,
+    "description": "High-quality candle from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?candle&sig=54"
   },
   {
-    "name": "Indoor Plant (Succulent)",
-    "price": 220.00,
-    "description": "Low‑maintenance potted plant.",
-    "image": "https://source.unsplash.com/featured/300x200?succulent"
+    "name": "Product 55",
+    "price": 190,
+    "description": "High-quality plant from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?plant&sig=55"
   },
   {
-    "name": "Notebook A5 (200 pages)",
-    "price": 75.00,
-    "description": "Hard‑cover ruled notebook.",
-    "image": "https://source.unsplash.com/featured/300x200?notebook"
+    "name": "Product 56",
+    "price": 200,
+    "description": "High-quality notebook from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?notebook&sig=56"
   },
   {
-    "name": "Gel Pens (10 pc)",
-    "price": 90.00,
-    "description": "Smooth writing gel pens.",
-    "image": "https://source.unsplash.com/featured/300x200?pens"
+    "name": "Product 57",
+    "price": 210,
+    "description": "High-quality pens from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?pens&sig=57"
   },
   {
-    "name": "Sticky Notes (5 pads)",
-    "price": 65.00,
-    "description": "Fluorescent memo pads.",
-    "image": "https://source.unsplash.com/featured/300x200?sticky-notes"
+    "name": "Product 58",
+    "price": 220,
+    "description": "High-quality sticky notes from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?sticky-notes&sig=58"
   },
   {
-    "name": "Scotch Tape 18 mm × 33 m",
-    "price": 30.00,
-    "description": "Transparent office tape.",
-    "image": "https://source.unsplash.com/featured/300x200?tape"
+    "name": "Product 59",
+    "price": 230,
+    "description": "High-quality tape from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?tape&sig=59"
   },
   {
-    "name": "Kitchen Towel Roll",
-    "price": 55.00,
-    "description": "2‑ply absorbent kitchen roll.",
-    "image": "https://source.unsplash.com/featured/300x200?paper-towel"
+    "name": "Product 60",
+    "price": 240,
+    "description": "High-quality towel from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?towel&sig=60"
   },
   {
-    "name": "Steel Scrubber (3 pc)",
-    "price": 40.00,
-    "description": "Heavy‑duty utensil scrubbers.",
-    "image": "https://source.unsplash.com/featured/300x200?steel-scrubber"
+    "name": "Product 61",
+    "price": 250,
+    "description": "High-quality scrubber from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?scrubber&sig=61"
   },
   {
-    "name": "Hand Sanitizer 100 ml",
-    "price": 55.00,
-    "description": "70% alcohol instant sanitizer.",
-    "image": "https://source.unsplash.com/featured/300x200?hand-sanitizer"
+    "name": "Product 62",
+    "price": 260,
+    "description": "High-quality sanitizer from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?sanitizer&sig=62"
   },
   {
-    "name": "Travel Umbrella",
-    "price": 299.00,
-    "description": "Compact windproof umbrella.",
-    "image": "https://source.unsplash.com/featured/300x200?umbrella"
+    "name": "Product 63",
+    "price": 270,
+    "description": "High-quality umbrella from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?umbrella&sig=63"
   },
   {
-    "name": "Sports Water Bottle 800 ml",
-    "price": 140.00,
-    "description": "BPA‑free sipper bottle.",
-    "image": "https://source.unsplash.com/featured/300x200?water-bottle"
+    "name": "Product 64",
+    "price": 280,
+    "description": "High-quality bottle from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?bottle&sig=64"
   },
   {
-    "name": "Yoga Mat 6 mm",
-    "price": 749.00,
-    "description": "Non‑slip cushioned mat.",
-    "image": "https://source.unsplash.com/featured/300x200?yoga-mat"
+    "name": "Product 65",
+    "price": 290,
+    "description": "High-quality yoga mat from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?yoga-mat&sig=65"
   },
   {
-    "name": "Skipping Rope",
-    "price": 180.00,
-    "description": "Adjustable speed rope.",
-    "image": "https://source.unsplash.com/featured/300x200?skipping-rope"
+    "name": "Product 66",
+    "price": 300,
+    "description": "High-quality rope from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?rope&sig=66"
   },
   {
-    "name": "Dumbbell Set (2×2 kg)",
-    "price": 999.00,
-    "description": "Neoprene‑coated dumbbells.",
-    "image": "https://source.unsplash.com/featured/300x200?dumbbells"
+    "name": "Product 67",
+    "price": 310,
+    "description": "High-quality dumbbells from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?dumbbells&sig=67"
   },
   {
-    "name": "First‑Aid Kit",
-    "price": 349.00,
-    "description": "Compact emergency kit.",
-    "image": "https://source.unsplash.com/featured/300x200?first-aid-kit"
+    "name": "Product 68",
+    "price": 320,
+    "description": "High-quality first aid from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?first-aid&sig=68"
   },
   {
-    "name": "LED Flashlight",
-    "price": 199.00,
-    "description": "Rechargeable bright torch.",
-    "image": "https://source.unsplash.com/featured/300x200?flashlight"
+    "name": "Product 69",
+    "price": 330,
+    "description": "High-quality flashlight from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?flashlight&sig=69"
   },
   {
-    "name": "Rechargeable Power Bank 10000 mAh",
-    "price": 1199.00,
-    "description": "Dual‑output fast‑charging bank.",
-    "image": "https://source.unsplash.com/featured/300x200?power-bank"
+    "name": "Product 70",
+    "price": 340,
+    "description": "High-quality power bank from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?power-bank&sig=70"
   },
   {
-    "name": "Smart Plug 10 A",
-    "price": 999.00,
-    "description": "Wi‑Fi enabled voice‑control plug.",
-    "image": "https://source.unsplash.com/featured/300x200?smart-plug"
+    "name": "Product 71",
+    "price": 350,
+    "description": "High-quality smart plug from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?smart-plug&sig=71"
   },
   {
-    "name": "Wi‑Fi Range Extender",
-    "price": 1799.00,
-    "description": "Dual‑band signal booster.",
-    "image": "https://source.unsplash.com/featured/300x200?wifi-extender"
+    "name": "Product 72",
+    "price": 360,
+    "description": "High-quality wifi from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?wifi&sig=72"
   },
   {
-    "name": "Micro‑SD Card 64 GB",
-    "price": 699.00,
-    "description": "Class 10 high‑speed card.",
-    "image": "https://source.unsplash.com/featured/300x200?micro-sd"
+    "name": "Product 73",
+    "price": 370,
+    "description": "High-quality sd card from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?sd-card&sig=73"
   },
   {
-    "name": "Gaming Mousepad XL",
-    "price": 349.00,
-    "description": "Extended anti‑fray mousepad.",
-    "image": "https://source.unsplash.com/featured/300x200?mousepad"
+    "name": "Product 74",
+    "price": 380,
+    "description": "High-quality mousepad from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?mousepad&sig=74"
   },
   {
-    "name": "Desk Organizer",
-    "price": 299.00,
-    "description": "Multi‑compartment desktop tidy.",
-    "image": "https://source.unsplash.com/featured/300x200?desk-organizer"
+    "name": "Product 75",
+    "price": 390,
+    "description": "High-quality organizer from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?organizer&sig=75"
+  },
+  {
+    "name": "Product 76",
+    "price": 400,
+    "description": "High-quality bread from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?bread&sig=76"
+  },
+  {
+    "name": "Product 77",
+    "price": 410,
+    "description": "High-quality milk from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?milk&sig=77"
+  },
+  {
+    "name": "Product 78",
+    "price": 420,
+    "description": "High-quality eggs from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?eggs&sig=78"
+  },
+  {
+    "name": "Product 79",
+    "price": 430,
+    "description": "High-quality rice from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?rice&sig=79"
+  },
+  {
+    "name": "Product 80",
+    "price": 440,
+    "description": "High-quality lentils from local vendors.",
+    "image": "https://source.unsplash.com/300x200/?lentils&sig=80"
   }
 ]
