@@ -1,20 +1,41 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function Buy() {
   const [step, setStep] = useState(1);
   const [address, setAddress] = useState("");
+  const [orderStatus, setOrderStatus] = useState("");
   const navigate = useNavigate();
+
+  // Load order status for tracking
+  useEffect(() => {
+    const savedOrder = JSON.parse(localStorage.getItem("order"));
+    if (savedOrder) {
+      setOrderStatus(savedOrder.status || "Ready to Place");
+    }
+  }, []);
 
   const handleNext = () => {
     if (step === 1 && !address.trim()) {
       return alert("Please enter a delivery address.");
     }
+
+    if (step === 2) {
+      // Finalize order, clear cart, update status
+      const order = JSON.parse(localStorage.getItem("order"));
+      if (order) {
+        order.status = "On the Way";
+        order.address = address;
+        localStorage.setItem("order", JSON.stringify(order));
+        localStorage.removeItem("cart");
+        setOrderStatus(order.status);
+      }
+    }
+
     setStep(step + 1);
   };
 
   const handleReturnHome = () => {
-    localStorage.removeItem("cart"); // clear cart after purchase
     navigate("/");
   };
 
@@ -22,12 +43,10 @@ export default function Buy() {
     <div className="max-w-xl mx-auto p-6">
       <h1 className="text-2xl font-bold mb-6">Checkout</h1>
 
-      {/* ─── Step 1 : Address ───────────────────────────────────────────── */}
+      {/* ─── Step 1: Address ─────────────────────────────── */}
       {step === 1 && (
         <>
-          <label className="block font-semibold mb-2">
-            Shipping Address:
-          </label>
+          <label className="block font-semibold mb-2">Shipping Address:</label>
           <textarea
             rows="4"
             className="w-full border p-2 rounded mb-4"
@@ -39,46 +58,51 @@ export default function Buy() {
             onClick={handleNext}
             className="bg-blue-600 text-white px-4 py-2 rounded"
           >
-            Continue →
+            Continue →
           </button>
         </>
       )}
 
-      {/* ─── Step 2 : Payment ───────────────────────────────────────────── */}
+      {/* ─── Step 2: Payment ─────────────────────────────── */}
       {step === 2 && (
         <>
           <h2 className="text-lg font-semibold mb-4">Payment Method</h2>
           <div className="p-4 border rounded bg-gray-50">
-            <p>✅ Cash&nbsp;on&nbsp;Delivery</p>
+            <p>✅ Cash on Delivery</p>
             <small className="text-gray-500">
-              (You’ll pay when the package arrives.)
+              You’ll pay when the package arrives.
             </small>
           </div>
-
           <button
             onClick={handleNext}
             className="bg-green-600 text-white mt-6 px-6 py-2 rounded"
           >
-            Place Order
+            Place Order
           </button>
         </>
       )}
 
-      {/* ─── Step 3 : Tracking ──────────────────────────────────────────── */}
+      {/* ─── Step 3: Tracking ────────────────────────────── */}
       {step === 3 && (
         <>
           <h2 className="text-lg font-semibold mb-4">Order Status</h2>
           <ul className="space-y-2 ml-4 list-decimal">
-            <li className="font-bold text-green-700">Order Placed ✔️</li>
-            <li className="font-bold text-yellow-600">On the Way 🚚</li>
-            <li className="font-bold text-gray-500">Delivered (pending) 📦</li>
+            <li className={`font-bold ${orderStatus !== "Ready to Place" ? "text-green-700" : "text-yellow-700"}`}>
+              Ready to Place {orderStatus !== "Ready to Place" && "✔️"}
+            </li>
+            <li className={`font-bold ${orderStatus === "On the Way" || orderStatus === "Delivered" ? "text-green-700" : "text-gray-500"}`}>
+              On the Way {orderStatus === "On the Way" && "🚚"}
+            </li>
+            <li className={`font-bold ${orderStatus === "Delivered" ? "text-green-700" : "text-gray-500"}`}>
+              Delivered {orderStatus === "Delivered" && "📦"}
+            </li>
           </ul>
 
           <button
             onClick={handleReturnHome}
             className="bg-blue-600 text-white mt-6 px-6 py-2 rounded"
           >
-            Back to Shop
+            Back to Shop
           </button>
         </>
       )}
