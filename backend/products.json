@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Apple iPhone 14",
+    "price": 799,
+    "description": "Latest Apple smartphone with A15 Bionic chip and improved battery.",
+    "image": "https://via.placeholder.com/300x200?text=iPhone+14"
+  },
+  {
+    "name": "Samsung Galaxy S23",
+    "price": 699,
+    "description": "Flagship Android phone with powerful performance and stunning display.",
+    "image": "https://via.placeholder.com/300x200?text=Galaxy+S23"
+  },
+  {
+    "name": "Sony WH-1000XM4",
+    "price": 349,
+    "description": "Industry-leading noise cancelling over-ear headphones from Sony.",
+    "image": "https://via.placeholder.com/300x200?text=Sony+Headphones"
+  }
+]
