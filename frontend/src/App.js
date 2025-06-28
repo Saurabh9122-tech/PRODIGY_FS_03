@@ -11,6 +11,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
         {/* Add product/detail route later if needed */}
+        axios.get("http://localhost:5000/api/products")
+
       </Routes>
     </BrowserRouter>
   );

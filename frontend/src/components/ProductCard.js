@@ -10,6 +10,8 @@ export default function ProductCard({ product }) {
         <p className="text-gray-600">${product.price.toFixed(2)}</p>
         <p className="text-sm my-2">{product.description.substring(0, 60)}...</p>
         <Link to={`/cart`} className="mt-2 inline-block bg-blue-500 text-white px-3 py-1 rounded">Add to cart</Link>
+        axios.get("http://localhost:5000/api/products")
+
       </div>
     </div>
   );
