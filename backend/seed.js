@@ -1,21 +1,17 @@
+// seed.js
 require('dotenv').config();
 const mongoose = require('mongoose');
-const Product = require('./models/producttemp');
-const products = require('./products.json');
+const Product = require('./models/productModel'); // ✅ Make sure filename is productModel.js
+const products = require('./products.json'); // ✅ Create this JSON with products
 
 mongoose.connect(process.env.MONGO_URI)
-  .then(() => {
-    console.log('Connected to MongoDB');
-    return Product.deleteMany({});
+  .then(async () => {
+    await Product.deleteMany({});
+    await Product.insertMany(products);
+    console.log('Products seeded');
+    process.exit();
   })
-  .then(() => {
-    return Product.insertMany(products);
-  })
-  .then(() => {
-    console.log('Sample products inserted!');
-    mongoose.disconnect();
-  })
-  .catch((err) => {
-    console.error('Error inserting products:', err);
-    mongoose.disconnect();
+  .catch(err => {
+    console.error('Seeding error:', err);
+    process.exit(1);
   });

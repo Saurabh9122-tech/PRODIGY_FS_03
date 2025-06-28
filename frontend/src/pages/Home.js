@@ -12,20 +12,18 @@ export default function Home() {
     // TODO: push to context / localStorage
   };
 
-  useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        const { data } = await axios.get(
-          `${process.env.REACT_APP_API_BASE_URL}/api/products`
-        );
-        setProducts(data);
-      } catch (err) {
-        console.error(err);
-        setError('Could not load products.');
-      }
-    };
-    fetchProducts();
-  }, []);
+ useEffect(() => {
+  async function fetchProducts() {
+    try {
+      const { data } = await axios.get("http://localhost:5000/api/products");
+      setProducts(data);
+    } catch (err) {
+      console.error("Error fetching products", err);
+    }
+  }
+  fetchProducts();
+}, []);
+
 
   if (error) return <p className="text-red-600 p-4">{error}</p>;
 
