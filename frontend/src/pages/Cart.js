@@ -5,25 +5,25 @@ export default function Cart() {
   const [items, setItems] = useState([]);
   const navigate = useNavigate();
 
-  // ─── Load cart ────────────────────────
+  // Load cart from localStorage
   useEffect(() => {
     const data = JSON.parse(localStorage.getItem("cart")) || [];
     setItems(data);
   }, []);
 
-  // ─── Remove item ──────────────────────
+  // Remove item
   const removeItem = (id) => {
     const updated = items.filter((i) => i._id !== id);
     setItems(updated);
     localStorage.setItem("cart", JSON.stringify(updated));
   };
 
-  // ─── Total ────────────────────────────
+  // Calculate total
   const total = items
     .reduce((sum, i) => sum + (i.price || 0) * (i.quantity || 1), 0)
     .toFixed(2);
 
-  // ─── Buy (save order) ─────────────────
+  // Buy button logic
   const handleBuy = () => {
     const order = {
       items,
@@ -36,7 +36,7 @@ export default function Cart() {
     navigate("/buy");
   };
 
-  // ─── Track order ──────────────────────
+  // Track order logic
   const handleTrack = () => {
     const order = JSON.parse(localStorage.getItem("order"));
     if (!order) {
@@ -54,7 +54,7 @@ export default function Cart() {
     alert(`Order Status: ${nextStatus}`);
   };
 
-  // ─── If cart is empty ─────────────────
+  // Empty cart message
   if (items.length === 0) {
     return (
       <div className="p-6 text-center">
@@ -71,14 +71,15 @@ export default function Cart() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto p-4 pb-28">
-      <h1 className="text-2xl font-bold mb-4">Your Cart</h1>
+    <div className="max-w-4xl mx-auto p-4">
+      <h1 className="text-2xl font-bold mb-6">Your Cart</h1>
 
+      {/* Cart Items */}
       <ul className="space-y-4">
         {items.map((item) => (
           <li
             key={item._id}
-            className="flex items-center justify-between border p-4 rounded"
+            className="flex items-center justify-between border p-4 rounded shadow-sm"
           >
             <div className="flex items-center gap-4">
               <img
@@ -93,6 +94,7 @@ export default function Cart() {
                 </p>
               </div>
             </div>
+
             <div className="text-right">
               <p className="font-bold text-green-700">
                 ₹{(item.price * (item.quantity || 1)).toFixed(2)}
@@ -108,19 +110,21 @@ export default function Cart() {
         ))}
       </ul>
 
-      {/* ─── Bottom Bar ───────────────── */}
-      <div className="fixed bottom-0 left-0 w-full bg-white border-t p-4 flex justify-between items-center max-w-4xl mx-auto">
-        <p className="text-xl font-bold text-blue-700">Total: ₹{total}</p>
+      {/* Total + Actions below cart */}
+      <div className="mt-8 p-4 border rounded bg-gray-50 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <p className="text-xl font-bold text-blue-800">
+          Total Amount: ₹{total}
+        </p>
         <div className="space-x-3">
           <button
             onClick={handleBuy}
-            className="bg-green-600 text-white px-4 py-2 rounded"
+            className="bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded"
           >
             Buy
           </button>
           <button
             onClick={handleTrack}
-            className="bg-purple-600 text-white px-4 py-2 rounded"
+            className="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2 rounded"
           >
             Track Order
           </button>
