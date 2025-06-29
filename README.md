@@ -28,39 +28,43 @@ Check out the working demo of this project in action
 
 ---
 # **📁 Folder Structure**
-pgsql  
 PRODIGY_FS_03/  
-├── backend    
-│   ├── models/producttemp.js    
-│   ├── routes/productRoutes.js    
+├── backend/  
+│   ├── models/  
+│   │   └── producttemp.js  
+│   ├── routes/  
+│   │   └── productRoutes.js  
+│   ├── seed.js  
+│   ├── products.json  
 │   ├── server.js  
-|   ├── seed .js  
-|   ├── products.json  
-|   ├── package.json      
-|   ├── package-lock.json  
-|   ├── env  
-|   ├── gitignore    
-├── frontend  
-│   ├── public/index.html   
-│   ├── src  
-│   |    ├── components/productCard.js  
-│   |    ├── pages  
-|   |    |    ├── Home.js
-|   |    |    ├── Cart.js  
-|   |    |    ├── Buy.js  
-│   |    ├── App.js  
-│   |    ├── index.js  
-│   |    ├── index.css  
-│   ├── env  
-│   ├── package_lock.json  
+│   ├── .env  
+│   ├── .gitignore  
 │   ├── package.json  
-│   ├── postcss.congfig.js  
+│   └── package-lock.json  
+├── frontend/  
+│   ├── public/  
+│   │   └── index.html  
+│   ├── src/  
+│   │   ├── components/  
+│   │   │   └── productCard.js  
+│   │   ├── pages/  
+│   │   │   ├── Home.js  
+│   │   │   ├── Cart.js  
+│   │   │   └── Buy.js  
+│   │   ├── App.js  
+│   │   ├── index.js  
+│   │   └── index.css  
+│   ├── assets/  
+│   ├── .env  
+│   ├── .gitignore  
+│   ├── postcss.config.js  
 │   ├── tailwind.config.js  
-│   ├──cart.html  
-│   ├── buy.html  
-├── node_modules   
-├── gitignore  
+│   ├── package.json  
+│   └── package-lock.json  
+├── node_modules/  
+├── .gitignore  
 └── README.md    
+
 ## 🔧 Tech Stack  
 
 - **Frontend**: HTML, CSS, JavaScript  
