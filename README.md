@@ -93,9 +93,9 @@ Open public/index.html in your browser
 ---
 # **📸 Screenshots**  
 ### **HOME PAGE**  
-("![Screenshot 2025-06-29 124617.png](https://github.com/Saurabh9122-tech/PRODIGY_FS_03/blob/main/Screenshot%202025-06-29%20124617.png)")  
+![Screenshot 2025-06-29 124617.png](https://github.com/Saurabh9122-tech/PRODIGY_FS_03/blob/main/Screenshot%202025-06-29%20124617.png)   
 ### **CART**  
-[!CART]()
+[!CART]("C:\Users\Saurabh Singh\OneDrive\Pictures\Screenshots\Screenshot 2025-06-29 124649.png")
 ### **ADDRESS **  
 [!ADDRESS]()  
 ### **PAYMENT METHOD**  
