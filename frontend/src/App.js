@@ -14,11 +14,10 @@ export default function App() {
         </div>
       </header>
 
-      {/* ✅ Wrap all routes inside <Routes> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/buy" element={<Buy />} /> {/* ✅ Buy route added */}
+        <Route path="/buy" element={<Buy />} />
       </Routes>
     </BrowserRouter>
   );

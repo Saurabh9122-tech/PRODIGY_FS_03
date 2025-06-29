@@ -1,9 +1,7 @@
-// seed.js
 require('dotenv').config();
 const mongoose = require('mongoose');
-const Product = require('./models/producttemp'); // ✅ Make sure filename is productModel.js
-const products = require('./products.json'); // ✅ Create this JSON with products
-
+const Product = require('./models/producttemp');
+const products = require('./products.json');
 mongoose.connect(process.env.MONGO_URI)
   .then(async () => {
     await Product.deleteMany({});

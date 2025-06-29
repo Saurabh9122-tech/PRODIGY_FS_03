@@ -7,7 +7,6 @@ export default function Buy() {
   const [orderStatus, setOrderStatus] = useState("");
   const navigate = useNavigate();
 
-  // Load order status for tracking
   useEffect(() => {
     const savedOrder = JSON.parse(localStorage.getItem("order"));
     if (savedOrder) {
@@ -17,11 +16,11 @@ export default function Buy() {
 
   const handleNext = () => {
     if (step === 1 && !address.trim()) {
-      return alert("Please enter a delivery address.");
+      alert("Please enter a delivery address.");
+      return;
     }
 
     if (step === 2) {
-      // Finalize order, clear cart, update status
       const order = JSON.parse(localStorage.getItem("order"));
       if (order) {
         order.status = "On the Way";
@@ -43,7 +42,6 @@ export default function Buy() {
     <div className="max-w-xl mx-auto p-6">
       <h1 className="text-2xl font-bold mb-6">Checkout</h1>
 
-      {/* ─── Step 1: Address ─────────────────────────────── */}
       {step === 1 && (
         <>
           <label className="block font-semibold mb-2">Shipping Address:</label>
@@ -63,7 +61,6 @@ export default function Buy() {
         </>
       )}
 
-      {/* ─── Step 2: Payment ─────────────────────────────── */}
       {step === 2 && (
         <>
           <h2 className="text-lg font-semibold mb-4">Payment Method</h2>
@@ -82,7 +79,6 @@ export default function Buy() {
         </>
       )}
 
-      {/* ─── Step 3: Tracking ────────────────────────────── */}
       {step === 3 && (
         <>
           <h2 className="text-lg font-semibold mb-4">Order Status</h2>

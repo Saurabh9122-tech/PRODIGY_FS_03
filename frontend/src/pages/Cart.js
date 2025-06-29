@@ -5,25 +5,21 @@ export default function Cart() {
   const [items, setItems] = useState([]);
   const navigate = useNavigate();
 
-  // Load cart from localStorage
   useEffect(() => {
     const data = JSON.parse(localStorage.getItem("cart")) || [];
     setItems(data);
   }, []);
 
-  // Remove item
   const removeItem = (id) => {
     const updated = items.filter((i) => i._id !== id);
     setItems(updated);
     localStorage.setItem("cart", JSON.stringify(updated));
   };
 
-  // Calculate total
   const total = items
     .reduce((sum, i) => sum + (i.price || 0) * (i.quantity || 1), 0)
     .toFixed(2);
 
-  // Buy button logic
   const handleBuy = () => {
     const order = {
       items,
@@ -36,7 +32,6 @@ export default function Cart() {
     navigate("/buy");
   };
 
-  // Track order logic
   const handleTrack = () => {
     const order = JSON.parse(localStorage.getItem("order"));
     if (!order) {
@@ -54,7 +49,6 @@ export default function Cart() {
     alert(`Order Status: ${nextStatus}`);
   };
 
-  // Empty cart message
   if (items.length === 0) {
     return (
       <div className="p-6 text-center">
@@ -74,7 +68,6 @@ export default function Cart() {
     <div className="max-w-4xl mx-auto p-4">
       <h1 className="text-2xl font-bold mb-6">Your Cart</h1>
 
-      {/* Cart Items */}
       <ul className="space-y-4">
         {items.map((item) => (
           <li
@@ -110,7 +103,6 @@ export default function Cart() {
         ))}
       </ul>
 
-      {/* Total + Actions below cart */}
       <div className="mt-8 p-4 border rounded bg-gray-50 flex flex-col sm:flex-row justify-between items-center gap-4">
         <p className="text-xl font-bold text-blue-800">
           Total Amount: ₹{total}
