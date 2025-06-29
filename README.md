@@ -54,8 +54,7 @@ PRODIGY_FS_03/
 ## 🚀 How to Run Locally  
 
 ### 1. Clone this Repo  
-
-```bash  
+bash  
 git clone https://github.com/Saurabh9122-tech/PRODIGY_FS_03.git  
 cd PRODIGY_FS_03  
 ### **2. Install Backend Dependencies**      
