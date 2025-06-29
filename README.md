@@ -87,10 +87,10 @@ npm install
 ### **3. Start the Server**   
 Copy code  
 node server.js  
-### **4. Open Frontend**  
-Open public/index.html in your browser    
-(Or run using VS Code Live Server or any local server)    
----
+### **4. Open Frontend**   
+ Open public/index.html in your browser      
+(Or run using VS Code Live Server or any local server)   
+
 # **📸 Screenshots**  
 ### **HOME PAGE**  
 ![Screenshot 2025-06-29 124617.png](https://github.com/Saurabh9122-tech/PRODIGY_FS_03/blob/main/Screenshot%202025-06-29%20124617.png)   
