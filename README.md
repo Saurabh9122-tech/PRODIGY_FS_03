@@ -28,19 +28,39 @@ Check out the working demo of this project in action
 
 ---
 # **📁 Folder Structure**
-pgsql
-Copy code
-PRODIGY_FS_03/
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-├── public/
-│   ├── index.html
-│   ├── cart.html
-│   ├── buy.html
-├── products.json
-└── README.md  
+pgsql  
+PRODIGY_FS_03/  
+├── backend    
+│   ├── models/producttemp.js    
+│   ├── routes/productRoutes.js    
+│   ├── server.js  
+|   ├── seed .js  
+|   ├── products.json  
+|   ├── package.json      
+|   ├── package-lock.json  
+|   ├── env  
+|   ├── gitignore    
+├── frontend  
+│   ├── public/index.html   
+│   ├── src  
+│   |    ├── components/productCard.js  
+│   |    ├── pages  
+|   |    |    ├── Home.js
+|   |    |    ├── Cart.js  
+|   |    |    ├── Buy.js  
+│   |    ├── App.js  
+│   |    ├── index.js  
+│   |    ├── index.css  
+│   ├── env  
+│   ├── package_lock.json  
+│   ├── package.json  
+│   ├── postcss.congfig.js  
+│   ├── tailwind.config.js  
+│   ├──cart.html  
+│   ├── buy.html  
+├── node_modules   
+├── gitignore  
+└── README.md    
 ## 🔧 Tech Stack  
 
 - **Frontend**: HTML, CSS, JavaScript  
@@ -54,16 +74,13 @@ PRODIGY_FS_03/
 ## 🚀 How to Run Locally  
 
 ### 1. Clone this Repo  
-bash  
 git clone https://github.com/Saurabh9122-tech/PRODIGY_FS_03.git  
 cd PRODIGY_FS_03  
 ### **2. Install Backend Dependencies**      
-bash  
 Copy code  
 cd backend  
 npm install  
-### **3. Start the Server**  
-bash  
+### **3. Start the Server**   
 Copy code  
 node server.js  
 ### **4. Open Frontend**  
