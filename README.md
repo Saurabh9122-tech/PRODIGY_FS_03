@@ -92,16 +92,22 @@ Open public/index.html in your browser
 (Or run using VS Code Live Server or any local server)  
 
 # **📸 Screenshots**  
-You can add GitHub-hosted or Imgur screenshots here.  
+### **HOME PAGE**  
+[!HOME]()
+### **CART**  
+[!CART]()
+### **ADDRESS **  
+[!ADDRESS]()  
+### **PAYMENT METHOD**  
+[!PAYMENT METHOD]()
+### **TRACKING**  
+[!ORDERE TRACK]()  
 
 # **🙋‍♂️ About Me**
 Hi! I’m Saurabh Kumar, a web developer intern at Prodigy InfoTech.
 This project is part of my learning journey — building real-world solutions one step at a time.
 
 ### **🔗 LinkedIn**
-  **saurabh kumar**  
-📧 saurabh.your@email.com  
+  [saurabh kumar](www.linkedin.com/in/saurabh-kumar-9999s)   
 # **🔒 License**
-This project is created for learning purposes.
-Feel free to explore, modify, and build upon it!
-© 2025 Saurabh Kumar
+[MIT]()
