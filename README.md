@@ -88,12 +88,12 @@ npm install
 Copy code  
 node server.js  
 ### **4. Open Frontend**  
-Open public/index.html in your browser  
-(Or run using VS Code Live Server or any local server)  
+Open public/index.html in your browser    
+(Or run using VS Code Live Server or any local server)    
 ---
 # **📸 Screenshots**  
 ### **HOME PAGE**  
-[!HOME]()
+!HOME("C:\Users\Saurabh Singh\OneDrive\Pictures\Screenshots\Screenshot 2025-06-29 124617.png")
 ### **CART**  
 [!CART]()
 ### **ADDRESS **  
