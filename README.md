@@ -110,4 +110,4 @@ This project is part of my learning journey — building real-world solutions on
 ### **🔗 LinkedIn**
   [saurabh kumar](www.linkedin.com/in/saurabh-kumar-9999s)   
 # **🔒 License**
-[MIT]()
+[MIT](https://github.com/Saurabh9122-tech/PRODIGY_FS_03/blob/main/LICENSE)
