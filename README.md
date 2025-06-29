@@ -93,7 +93,7 @@ Open public/index.html in your browser
 ---
 # **📸 Screenshots**  
 ### **HOME PAGE**  
-HOME("Screenshot 2025-06-29 124617.png")  
+[![HOME]("Screenshot 2025-06-29 124617.png")]  
 ### **CART**  
 [!CART]()
 ### **ADDRESS **  
