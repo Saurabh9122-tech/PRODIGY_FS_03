@@ -7,9 +7,9 @@ Welcome to **Local Store** – a clean, simple, and user-friendly local e-commer
 ## 🎬 Demo Video  
 
 Check out the working demo of this project in action      
-[![Watch Demo](https://img.youtube.com/vi/gwjLwS487O0/0.jpg)](https://youtu.be/gwjLwS487O0)  
+[![Watch Demo](https://img.youtube.com/vi/NP435pW361M/0.jpg)](https://youtu.be/NP435pW361M)  
 
-📺 [Click here to watch on YouTube »](https://youtu.be/gwjLwS487O0)  
+📺 [Click here to watch on YouTube »](https://youtu.be/NP435pW361M)  
 
 ---
 
