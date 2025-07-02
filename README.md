@@ -80,12 +80,10 @@ PRODIGY_FS_03/
 ### 1. Clone this Repo  
 git clone [CLICK HERE](https://github.com/Saurabh9122-tech/PRODIGY_FS_03.git)    
 cd PRODIGY_FS_03  
-### **2. Install Backend Dependencies**      
-Copy code  
+### **2. Install Backend Dependencies**        
 cd backend  
 npm install  
-### **3. Start the Server**   
-Copy code  
+### **3. Start the Server**     
 node server.js  
 ### **4. Open Frontend**   
  Open public/index.html in your browser      
